@@ -146,6 +146,7 @@
       // Display the QR code
       const qrCodeDiv = document.getElementById('qr-code');
       qrCodeDiv.innerHTML = `<img src="${qrUrl}" alt="QR kod">`;
+      $('html,body').scrollTop(0);
     });
   </script>
 </body>
